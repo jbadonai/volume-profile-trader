@@ -7,6 +7,7 @@ downloads/
 venv/
 dist/
 build/
+backup/
 __pycache__/
 temp/
 .env
