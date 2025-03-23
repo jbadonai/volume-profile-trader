@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5e4271-e580-4e1a-ad41-600a17f124e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trader_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trader_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/trader_v2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="e#131#145#0" expanded="true" />
               </folding>
@@ -28,9 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trader_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756">
+            <state relative-caret-position="-16">
+              <caret line="341" column="31" lean-forward="true" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
               <folding>
-                <element signature="e#1401#1415#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +66,25 @@
       <find>0.7</find>
       <find>Position mode:</find>
       <find>for future in as_completed</find>
+      <find>LPUSDT</find>
+      <find>wait</find>
+      <find>poc</find>
+      <find>batch_</find>
+      <find>logger.info(f&quot;[</find>
+      <find>{symbol}</find>
+      <find>{symbol:&lt;15}</find>
+      <find>[{symbol:&lt;15}]</find>
+      <find>symbol.ljust(15)</find>
+      <find>{symbol</find>
+      <find>cool</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{symbol:&lt;10}</replace>
+      <replace>{symbol:&lt;30}</replace>
+      <replace>[{symbol.ljust(15)}]</replace>
+      <replace>str(symbol).ljust(15)</replace>
+      <replace>:&lt;10</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,9 +93,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tester.py" />
-        <option value="$PROJECT_DIR$/trader.py" />
         <option value="$PROJECT_DIR$/bybit.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/trader.py" />
         <option value="$PROJECT_DIR$/trader_v2.py" />
       </list>
     </option>
@@ -92,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,6 +122,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -233,7 +252,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6121113" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5581015" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="e#131#145#0" expanded="true" />
           </folding>
@@ -272,9 +291,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trader_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
+        <state relative-caret-position="-16">
+          <caret line="341" column="31" lean-forward="true" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
           <folding>
-            <element signature="e#1401#1415#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
